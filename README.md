@@ -1,1 +1,1 @@
-# DSA_c++
+# DSA_ALGO
