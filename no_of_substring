@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   string s="1234";
+   int n=s.size();
+   cout<<n*(n+1)/2;
+} 
+
+
+Input : str = “abc” 
+Output : 6 
+Every substring of the given string : “a”, “b”, “c”, “ab”, “bc”, “abc”
+
+Input : str = “abcd” 
+Output : 10 
+Every substring of the given string : “a”, “b”, “c”, “d”, “ab”, “bc”, “cd”, “abc”, “bcd” and “abcd”
